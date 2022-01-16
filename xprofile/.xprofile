@@ -1,0 +1,8 @@
+#!/bin/zsh
+polybar example &
+
+chsh -s /bin/zsh
+
+wal -i ~/img/bg.png
+
+setxkbmap -layout us -variant intl
