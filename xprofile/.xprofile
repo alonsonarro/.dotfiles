@@ -5,6 +5,6 @@ polybar example &
 
 chsh -s /bin/zsh
 
-wal -i ~/img/bg-2.jpg
+wal -i ~/img/bg-3.jpg
 
 setxkbmap -layout us -variant intl
