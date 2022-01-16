@@ -1,10 +1,16 @@
 #!/bin/zsh
+
+## Set up monitor config
 autorandr main
 
-polybar example &
+## Launch Polybar
+bash ~/.config/polybar/launch.sh --forest
 
+## Set up zsh as shell
 chsh -s /bin/zsh
 
+## Run pywal
 wal -i ~/img/bg-3.jpg
 
+## Set kb layout
 setxkbmap -layout us -variant intl
