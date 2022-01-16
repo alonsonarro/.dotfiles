@@ -1,8 +1,10 @@
 #!/bin/zsh
+autorandr main
+
 polybar example &
 
 chsh -s /bin/zsh
 
-wal -i ~/img/bg.png
+wal -i ~/img/bg-2.jpg
 
 setxkbmap -layout us -variant intl
