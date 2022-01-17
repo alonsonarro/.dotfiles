@@ -3,9 +3,6 @@
 ## Set up monitor config
 autorandr main
 
-## Launch Polybar
-bash ~/.config/polybar/launch.sh --forest
-
 ## Set up zsh as shell
 chsh -s /bin/zsh
 

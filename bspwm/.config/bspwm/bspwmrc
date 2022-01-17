@@ -1,8 +1,8 @@
-#! /bin/sh
+#! /bin/zsh
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor Virtual-1 -d 1 2 3 4 5
 
 bspc config border_width         2
 bspc config window_gap          12
@@ -16,3 +16,7 @@ bspc rule -a Chromium desktop='^2'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
+
+
+## Launch Polybar
+bash ~/.config/polybar/launch.sh --forest
