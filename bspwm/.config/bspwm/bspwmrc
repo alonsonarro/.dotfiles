@@ -18,5 +18,8 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
 
+## Picom -> need to fix KMS before enabling picom again
+#exec picom &
+
 ## Launch Polybar
-bash ~/.config/polybar/launch.sh --forest
+bash ~/.config/polybar/launch.sh
